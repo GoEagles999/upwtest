@@ -10,6 +10,18 @@
       "StackName": "amplify-upwtest-staging-203804",
       "StackId": "arn:aws:cloudformation:eu-west-2:264398826519:stack/amplify-upwtest-staging-203804/37cdcf20-f26b-11ec-8e71-068d29ee2e8a",
       "AmplifyAppId": "d1xvcrsvo9av6r"
+    },
+    "categories": {
+      "function": {
+        "mutateMain": {
+          "deploymentBucketName": "amplify-upwtest-staging-203804-deployment",
+          "s3Key": "amplify-builds/mutateMain-784a50766a304a466267-build.zip"
+        },
+        "queryMain": {
+          "deploymentBucketName": "amplify-upwtest-staging-203804-deployment",
+          "s3Key": "amplify-builds/queryMain-537147674c6e5867644e-build.zip"
+        }
+      }
     }
   }
 }

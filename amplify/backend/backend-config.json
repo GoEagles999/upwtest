@@ -18,5 +18,17 @@
         }
       }
     }
+  },
+  "function": {
+    "queryMain": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "mutateMain": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
   }
 }

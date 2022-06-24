@@ -7,6 +7,7 @@ import {
   getComment,
   listBlogs,
   getPost,
+  queryMain
 } from '../src/graphql/queries';
 import {
   createBlog,
@@ -99,7 +100,7 @@ export default function Home() {
           style={{ padding: '30px' }}
           onClick={async (e) =>
             await API.graphql(
-              graphqlOperation(createBlog, { input: { name: name } })
+              graphqlOperation(queryMain)
             )
           }
         >
