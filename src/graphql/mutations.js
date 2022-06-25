@@ -3,22 +3,7 @@
 
 export const mutateMain = /* GraphQL */ `
   mutation MutateMain($params: String) {
-    mutateMain(params: $params) {
-      id
-      name
-      posts {
-        items {
-          id
-          title
-          createdAt
-          updatedAt
-          blogPostsId
-        }
-        nextToken
-      }
-      createdAt
-      updatedAt
-    }
+    mutateMain(params: $params)
   }
 `;
 export const createBlog = /* GraphQL */ `

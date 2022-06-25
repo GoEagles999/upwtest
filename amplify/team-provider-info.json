@@ -15,11 +15,11 @@
       "function": {
         "mutateMain": {
           "deploymentBucketName": "amplify-upwtest-staging-203804-deployment",
-          "s3Key": "amplify-builds/mutateMain-784a50766a304a466267-build.zip"
+          "s3Key": "amplify-builds/mutateMain-30675853393168353233-build.zip"
         },
         "queryMain": {
           "deploymentBucketName": "amplify-upwtest-staging-203804-deployment",
-          "s3Key": "amplify-builds/queryMain-537147674c6e5867644e-build.zip"
+          "s3Key": "amplify-builds/queryMain-6931373044743673366e-build.zip"
         }
       }
     }

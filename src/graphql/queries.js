@@ -3,22 +3,7 @@
 
 export const queryMain = /* GraphQL */ `
   query QueryMain($params: String) {
-    queryMain(params: $params) {
-      id
-      name
-      posts {
-        items {
-          id
-          title
-          createdAt
-          updatedAt
-          blogPostsId
-        }
-        nextToken
-      }
-      createdAt
-      updatedAt
-    }
+    queryMain(params: $params)
   }
 `;
 export const getBlog = /* GraphQL */ `

@@ -22,11 +22,11 @@ type Comment @model {
 }
 
 type Query {
-  queryMain(params: String): Blog
+  queryMain(params: String): String
   @function(name: "queryMain-${env}")
 }
 
 type Mutation {
-  mutateMain(params: String): Blog
+  mutateMain(params: String): String
     @function(name: "mutateMain-${env}")
 }

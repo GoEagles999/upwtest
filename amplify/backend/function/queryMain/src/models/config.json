@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Postgresql9",
+    "database": "upw-poc",
+    "host": "cd1jivy48i5s1y8.c4vdjvskpr34.eu-west-2.rds.amazonaws.com",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "Postgresql9",
+    "database": "upw-poc",
+    "host": "cd1jivy48i5s1y8.c4vdjvskpr34.eu-west-2.rds.amazonaws.com",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "Postgresql9",
+    "database": "upw-poc",
+    "host": "cd1jivy48i5s1y8.c4vdjvskpr34.eu-west-2.rds.amazonaws.com",
+    "dialect": "postgres"
+  }
+}

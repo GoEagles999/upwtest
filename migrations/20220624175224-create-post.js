@@ -11,12 +11,8 @@ module.exports = {
       title: {
         type: Sequelize.STRING
       },
-      blogId: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: 'Blog',
-          key: 'id'
-        }
+      BlogId: {
+        type: Sequelize.INTEGER
       },
       createdAt: {
         allowNull: false,
